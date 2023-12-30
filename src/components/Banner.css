@@ -1,0 +1,29 @@
+/* Container holding the image and the text */
+.container-fluid {
+    position: relative;
+    /* text-align: center;
+    color: white; */
+    
+  }
+  /* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  img{
+    background-size: cover;
+  }
+
+  /* Top left text */
+.top-left {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+   
+  }
+  .details{
+    font-family: 'Dancing Script', cursive;
+    font-size:large;
+  }

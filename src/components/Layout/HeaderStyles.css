@@ -1,0 +1,39 @@
+.navbar{
+    background-color: rgb(128, 109, 128);
+
+
+
+}
+
+ 
+  
+  /* Links inside the dropdown */
+  .dropdown-menu  {
+    color: black;
+   
+    text-decoration: none;
+   
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content :hover 
+  {
+
+    background-color:rgb(128, 109, 128);
+    color: white;
+}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+.dropdown-item{
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+.dropdown-item.active, .dropdown-item:active {
+  color: var(--bs-dropdown-link-active-color);
+  text-decoration: none;
+  background-color: var();
+ 
+}
